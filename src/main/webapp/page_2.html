@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="CSS/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+    <center>
+    <div class="titprim">
+        <h1>Conversor de Divisas</h1>
+    </div>
+    <div class="contmid">
+        cantidad:<input class="monto" type="number" id="cantidad" min="0" max="1000" value="0" onclick="convertir()">
+        Converir de :
+        <select id="de"class="from" onclick="convertir()">
+            <option value="1">Sol</option>
+            <option value="2">Dolar</option>
+            <option value="3">Euro</option>
+        </select><br>
+        Convertir a :
+        <select id="a"class="from" onclick="convertir()">
+            <option value="1">Sol</option>
+            <option value="2">Dolar</option>
+            <option value="3">Euro</option>
+        </select><br>
+        <input type="button" id="valor" value="Cotizar" class="cotizar" onclick="convertir()">
+    </div><br>
+    <div class="resl">
+        <h1 id ="resultado">Resultado:$0.00</h1>
+    </center>   
+    </div>
+    <script src="JavaScript/newjavascript.js" type="text/javascript"></script>
+    </body>
+</html>

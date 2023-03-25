@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fredoka+One&family=Roboto+Condensed:wght@700&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background:url(Img/version2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height:100px;
+    display:flex;
+    margin-left: 40px;
+    max-width:05px;
+
+
+}
+
+.from{
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+    background: #1c1d1d;
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    color:#fff;
+    font-size: 1em;
+    font-family:'Roboto Condensed'; 
+    border-radius: 5px;
+    border:#fff;
+
+}
+
+.titprim{
+    font-family:'Dancing Script';
+    font-size:30px;
+    width:850px;
+    max-width: 450px;
+    margin: 25px  ;
+    padding: 20px 15px;
+    margin-top: 13px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    color:white;
+}
+
+.resl{
+    font-family:'Dancing Script';
+    font-size:30px;
+    width:850px;
+    max-width: 450px;
+    margin: 25px  ;
+    padding: 20px 35px;
+    margin-top: 5px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    color:white;
+}
+.contmid{
+    font-family:'Satisfy';
+    font-size:30px;
+    color:white;
+    background: rgba(231, 230, 230, 0.185);
+    width: 90%;
+    max-width: 250px;
+    margin:auto;
+    padding: 20px 35px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+
+.cotizar{
+    font-family:'Dancing Script';
+    font-size:23px;
+    padding: 3px 20px;
+    border-radius: 15px;
+    background: #1c1d1d;
+    color:white;
+}
+
+.monto{
+    font-family:'Dancing Script';
+    padding: 3px 20px;
+    font-size:25px;
+    background: #1c1d1d;
+    color:white;
+
+}
